@@ -12,6 +12,10 @@ public class Conta {
 		this.saldo = saldo;
 	}
 	
+	public void creditaSaldo(float valorCreditado) {
+		this.saldo = this.saldo + valorCreditado;
+	}
+	
 	
 
 }
