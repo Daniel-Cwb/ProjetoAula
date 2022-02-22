@@ -3,10 +3,10 @@ package Aula01;
 public class Conta {
 	
 	int numero;
-	double saldo;
+	float saldo;
 	
 	
-	public Conta(int numero, double saldo) {
+	public Conta(int numero, float saldo) {
 		this.numero = numero;
 		this.saldo = saldo;
 	}

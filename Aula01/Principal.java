@@ -25,20 +25,22 @@ public class Principal {
 	// chamando as funções
 	  System.out.println(cliente_04.retornaCliente());
       
-      Conta conta_01 = new Conta(1521,750.63);
+      Conta conta_01 = new Conta(1521,750.63f);
       System.out.println(conta_01.retornaConta());
       
-      Conta conta_02 = new Conta(1314,10.36);
-      conta_02.debitaSaldo(1000);
+      Conta conta_02 = new Conta(1314,10.36f);
+      conta_02.debitaSaldo(1000.2f);
+      System.out.println(conta_02.retornaConta());
+      conta_02.creditaSaldo(1000f);
       System.out.println(conta_02.retornaConta());
       
-      Conta conta_03 = new Conta(3568,-50.45);
+      Conta conta_03 = new Conta(3568,-50.45f);
       System.out.println(conta_03.retornaConta());
       
-      Conta conta_04 = new Conta(2224,91.23);
+      Conta conta_04 = new Conta(2224,91.23f);
       System.out.println(conta_04.retornaConta());
       
-      Conta conta_05 = new Conta(1019,-70.35);
+      Conta conta_05 = new Conta(1019,-70.35f);
       System.out.println(conta_05.retornaConta());
     
 	  
