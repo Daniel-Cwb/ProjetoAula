@@ -5,7 +5,10 @@ public class Conta {
 	int numero;
 	float saldo;
 	
-	
+	public Conta() {
+		super();
+	}
+
 	public Conta(int numero, float saldo) {
 		this.numero = numero;
 		this.saldo = saldo;
