@@ -26,7 +26,10 @@ public class Poupanca extends Conta{
 		this.aniversário = aniversário;
 	}
 	
-	
+	// Replicado por ser abstract
+	public String retornaConta()  {
+		return "Numero: " + this.numero + " Saldo: " + this.saldo + " Aniversário: " + this.aniversário;
+	}
 	
 
 }

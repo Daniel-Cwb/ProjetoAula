@@ -1,9 +1,9 @@
 package Aula04;
 
-public class Conta {
+public abstract class Conta {
 	
-	public int numero;
-	public float saldo;
+	protected int numero;
+	protected float saldo;
 	
 	
 
@@ -57,10 +57,8 @@ public class Conta {
 		
 	}
 	
-	// função retorna valor
-	public String retornaConta()  {
-		return "Numero: " + this.numero + " Saldo: " + this.saldo;
-	}
+	// função retorna valor como abstract, sou obrigado a replicar nas filhas
+	public abstract String retornaConta();
 	
 	// Se valor debitado maior ou igual a saldo retorna false
 	public boolean debitaSaldo(float valorDebitado) {

@@ -33,6 +33,10 @@ public class Especial  extends Conta {
 		}
 	}
 	
+	// Replicado por ser abstract
+	public String retornaConta()  {
+		return "Numero: " + this.numero + " Saldo: " + this.saldo + " Limite: " + this.limite;
+	}
 	
 
 }
