@@ -2,10 +2,10 @@ package Aula03;
 
 public class Cliente {
 	
-	String cpf;
-	int anoNascimento;
-	String nome;
-	String email;
+	protected String cpf;
+	protected int anoNascimento;
+	protected String nome;
+	protected String email;
 	
 
 }
