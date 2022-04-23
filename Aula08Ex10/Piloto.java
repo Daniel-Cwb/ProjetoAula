@@ -1,6 +1,6 @@
-package Trabalho07Ex2;
+package Aula08Ex10;
 
-public class Piloto extends Thread {
+public class Piloto implements Runnable{
 	
 	private String nome;
 	private String equipe;
@@ -21,7 +21,7 @@ public class Piloto extends Thread {
 		System.out.println(this.nome + " Largada");
 		try {
 			for(int i = 0; i <= this.voltas;i++) {
-				sleep(this.tempo);
+				Thread.sleep(this.tempo);
 			}
 		}catch (Exception e) {
 			e.printStackTrace();
