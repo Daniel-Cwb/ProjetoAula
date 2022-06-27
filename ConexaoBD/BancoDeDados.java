@@ -1,6 +1,7 @@
 package ConexaoBD;
 
 import java.sql.*;
+import java.persistence.*;
 
 public class BancoDeDados {
 	
